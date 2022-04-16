@@ -1,6 +1,6 @@
 from datetime import datetime
 
-user_input = input("Enter your goal with dead line separated with deadline(ex: demo:15:04:2022):\n")
+user_input = input("Enter your goal with dead line separated with deadline(ex: demo:15.04.2022):\n")
 input_list = user_input.split(":")
 
 goal = input_list[0]
